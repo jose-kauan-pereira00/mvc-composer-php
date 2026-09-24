@@ -1,0 +1,24 @@
+{
+    "name": "cursor/cursomvc",
+    "description": "Cursor de MVC com composer PHP",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "app\\":"app",
+            "core\\":"core"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jose Kauan Pereira",
+            "email": "jose.kauan.pereira00@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.2"
+    } 
+}
